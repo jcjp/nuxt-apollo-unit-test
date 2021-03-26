@@ -1,0 +1,14 @@
+query MyQuery {
+  itemCollectionCollection {
+    items {
+      itemsCollection {
+        items {
+          ... on Data {
+            question
+            answer
+          }
+        }
+      }
+    }
+  }
+}
